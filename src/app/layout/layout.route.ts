@@ -16,23 +16,25 @@ import { IndexTwoComponent } from "../index-two/index-two.component";
 import { AiChatBotComponent } from "../ai-chat-bot/ai-chat-bot.component";
 import { ImageGenerationComponent } from "../image-generation/image-generation.component";
 import { DocumentationComponent } from "../documentation/documentation.component";
+import { SignInComponent } from "../sign-in/sign-in.component";
 
 export const ADMIN_ROUTES: Routes = [
+  {path: 'sign-in', component: SignInComponent},
   { path: '', component: HomeComponent },
-  { path: 'community_feed', component: CommunityFeedComponent },
+  // { path: 'community_feed', component: CommunityFeedComponent },
   { path: 'personal_feed', component: PersonalFeedComponent },
-  { path: 'models', component: ModelsComponent },
-  { path: 'pricing', component: PricingComponent },
-  { path: 'faq', component: FaqComponent },
-  { path: 'changelog', component: ChangelogComponent },
-  { path: 'contact', component: ContactComponent },
-  { path: 'notifications', component: NotificationsComponent },
-  { path: 'notification-single', component: NotificationSingleComponent },
-  { path: 'user-billing', component: UserBillingComponent },
+  // { path: 'models', component: ModelsComponent },
+  // { path: 'pricing', component: PricingComponent },
+  // { path: 'faq', component: FaqComponent },
+  // { path: 'changelog', component: ChangelogComponent },
+  // { path: 'contact', component: ContactComponent },
+  // { path: 'notifications', component: NotificationsComponent },
+  // { path: 'notification-single', component: NotificationSingleComponent },
+  // { path: 'user-billing', component: UserBillingComponent },
   { path: 'user-profile', component: UserProfileComponent },
   { path: 'user-settings', component: UserSettingsComponent },
-  { path: 'index-two', component: IndexTwoComponent },
+  // { path: 'index-two', component: IndexTwoComponent },
   { path: 'aichatbot', component: AiChatBotComponent },
-  { path: 'image_generation', component: ImageGenerationComponent },
-  { path: 'documentation', component: DocumentationComponent },
+  // { path: 'image_generation', component: ImageGenerationComponent },
+  // { path: 'documentation', component: DocumentationComponent },
 ]

@@ -59,39 +59,39 @@ export class LeftsidebarComponent {
       case '/':
         this.activeMenuItem = '';
         break;
-      case '/community_feed':
-        this.activeMenuItem = 'community_feed';
-        break;
-      case '/personal_feed':
-        this.activeMenuItem = 'personal_feed';
-        break;
-      case '/models':
-        this.activeMenuItem = 'models';
-        break;
-      case '/image_generation':
-        this.activeMenuItem = 'image_generation';
-        break;
+      // case '/community_feed':
+      //   this.activeMenuItem = 'community_feed';
+      //   break;
+      // case '/personal_feed':
+      //   this.activeMenuItem = 'personal_feed';
+      //   break;
+      // case '/models':
+      //   this.activeMenuItem = 'models';
+      //   break;
+      // case '/image_generation':
+      //   this.activeMenuItem = 'image_generation';
+      //   break;
       case '/aichatbot':
         this.activeMenuItem = 'aichatbot';
         break;
-      case '/pricing':
-        this.activeMenuItem = 'pricing';
-        break;
-      case '/documentation':
-        this.activeMenuItem = 'documentation';
-        break;
-      case '/faq':
-        this.activeMenuItem = 'faq';
-        break;
-      case '/changelog':
-        this.activeMenuItem = 'changelog';
-        break;
-      case '/contact':
-        this.activeMenuItem = 'contact';
-        break;
-      case 'index-two':
-        this.activeMenuItem = 'index-two';
-        break;
+      // case '/pricing':
+      //   this.activeMenuItem = 'pricing';
+      //   break;
+      // case '/documentation':
+      //   this.activeMenuItem = 'documentation';
+      //   break;
+      // case '/faq':
+      //   this.activeMenuItem = 'faq';
+      //   break;
+      // case '/changelog':
+      //   this.activeMenuItem = 'changelog';
+      //   break;
+      // case '/contact':
+      //   this.activeMenuItem = 'contact';
+      //   break;
+      // case 'index-two':
+      //   this.activeMenuItem = 'index-two';
+      //   break;
       case '/sign-in':
         this.activeMenuItem = 'sign-in';
         break;
