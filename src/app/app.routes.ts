@@ -7,11 +7,6 @@ export const routes: Routes = [
   { path: '', component: LayoutComponent, loadChildren: () => import('./layout/layout.route').then(mod => mod.ADMIN_ROUTES)},
   { path: 'sign-in', component: SignInComponent },
   { path: 'sign-up', component: SignUpComponent },
-  {
-    path:'',
-    redirectTo:'login-signUp',
-    pathMatch:'full'
-
-},
+  
 
 ];
