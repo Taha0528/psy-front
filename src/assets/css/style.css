@@ -85,8 +85,8 @@
 /*------------------------------------------------------------------*/
 :root{
 	color-scheme: dark;
-	--techwave-site-bg-color: #0f0e11;
-	--techwave-header-bg-color: #17151b;
+	--techwave-site-bg-color: #050203;
+	--techwave-header-bg-color: #1b1515;
 	--techwave-some-r-bg-color: #17151b;
 	--techwave-some-a-bg-color: #2b2830;
 	--techwave-main-color: #7c5fe3;
@@ -114,7 +114,7 @@
 }
 [data-techwave-skin="light"]:root{
 	color-scheme: light;
-	--techwave-site-bg-color: #fff;
+	--techwave-site-bg-color: #e7e3f2;
 	--techwave-header-bg-color: #f5f5f5;
 	--techwave-some-r-bg-color: #f5f5f5;
 	--techwave-some-a-bg-color: #e7e7e7;
@@ -123,7 +123,7 @@
 	--techwave-main-color2: #b7a4fb;
 	--techwave-heading-color: #333;
 	--techwave-body-color: #444;
-	--techwave-border-color: #ddd;
+	--techwave-border-color: #aeadcc;
 	--techwave-button-bg-color: #f5f5f5;
 	--techwave-hover-color: #000;
 }

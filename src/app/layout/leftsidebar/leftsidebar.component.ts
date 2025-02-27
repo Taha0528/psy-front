@@ -89,7 +89,7 @@ export class LeftsidebarComponent {
       case '/contact':
         this.activeMenuItem = 'contact';
         break;
-      case '/index-two':
+      case 'index-two':
         this.activeMenuItem = 'index-two';
         break;
       case '/sign-in':

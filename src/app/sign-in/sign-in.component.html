@@ -8,18 +8,18 @@
 				<div class="form-title">Sign In</div>
 				<div class="form-username">
 					<label for="user-login">Username or Email</label>
-					<input type="text" class="input" id="user-login" autocapitalize="off" autocomplete="username" aria-describedby="login-message">
+					<input type="text" name="userName" [(ngModel)]="loginObj.userName" class="input" id="user-login" autocapitalize="off" autocomplete="username" aria-describedby="login-message">
 				</div>
 				<div class="form-pass">
 					<div class="pass-lab">
 						<label for="user-password">Password</label>
 						<a href="#">Forget Password?</a>
 					</div>
-					<input type="password" id="user-password" autocomplete="current-password" spellcheck="false">
+					<input type="password" name="passWord" [(ngModel)]="loginObj.passWord" id="user-password" autocomplete="current-password" spellcheck="false">
 				</div>
 				<div class="form-submit">
 					<label class="fn-submit">
-						<input type="submit" name="submit" value="Sign In">
+						<input type="submit"(click)="onlogin()" name="submit" value="Sign In">
 					</label>
 				</div>
 				<div class="form-alternative">
